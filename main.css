@@ -1,0 +1,145 @@
+#arriere_plan
+{
+    background-color: rgb(166, 238, 255);
+}
+
+.main_title
+{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(72, 0, 111);
+    margin-top: 2%;
+}
+
+.texte
+{
+    font-size: 20px;
+    color: rgb(169, 13, 255);
+    margin: 30px;
+    text-indent: 30px;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+    max-height: 50%;
+}
+
+.sous_titre
+{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(93, 0, 145);
+    font-weight: bold;
+}
+
+.tableau_taille
+{
+    width: 40%;
+    font-size: 20px;
+    color: rgb(169, 13, 255);
+    text-indent: 30px;
+}
+     
+.navbar
+{
+    display: flex;
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+}
+      
+.nav_list
+{
+    width: 50%;
+    display: flex;
+}
+      
+.nav_list li
+{
+    list-style: none;
+    padding: 26px 30px;
+}
+      
+.nav_list li a
+{
+    text-decoration: none;
+    color: rgb(93, 0, 145);
+}
+      
+.nav_list li a:hover
+{
+    color: white;
+}
+
+.background
+{
+    background: rgb(124, 231, 255);
+}
+
+.sommaire
+{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.lien_source
+{
+    color: rgb(169, 13, 255);
+}
+
+a:hover
+{
+    color: red;
+}
+
+#Ransomwares
+{
+    font-size: 50px ;
+    text-align: center;
+    color: rgb(93, 0, 145);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#DoS
+{
+    font-size: 50px ;
+    text-align: center;
+    color: rgb(93, 0, 145);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#log_espions
+{
+    font-size: 50px ;
+    text-align: center;
+    color: rgb(93, 0, 145);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#ytb_dos
+{
+    text-align: center;
+}
+
+.liste_produit
+{
+    color: rgb(169, 13, 255);
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.nom_gest_mdp
+{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(93, 0, 145);
+    font-weight: bold;
+}
