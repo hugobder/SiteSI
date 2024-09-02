@@ -1,12 +1,22 @@
-#arriere_plan
+:root
+{
+    --main-color: rgb(93, 0, 145);
+    --second-color: rgb(169, 13, 255);
+}
+
+#background
 {
     background-color: rgb(166, 238, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .main_title
 {
     font-size: 60px;
-    text-align: center;
     color: rgb(72, 0, 111);
     margin-top: 2%;
 }
@@ -14,8 +24,8 @@
 .texte
 {
     font-size: 20px;
-    color: rgb(169, 13, 255);
-    margin: 30px;
+    color: var(--second-color);
+    margin: 50px;
     text-indent: 30px;
 }
 
@@ -23,23 +33,23 @@ img
 {
     display: block;
     margin: 0 auto;
-    max-width: 75%;
-    max-height: 50%;
+    max-width: 25%;
+    height: auto;
 }
 
-.sous_titre
+.sub_title
 {
     font-size: 35px;
-    text-align: center;
-    color: rgb(93, 0, 145);
+    color: var(--main-color);
     font-weight: bold;
 }
 
-.tableau_taille
+.table_size
 {
+    margin: 0 auto;
     width: 40%;
     font-size: 20px;
-    color: rgb(169, 13, 255);
+    color: var(--second-color);
     text-indent: 30px;
 }
      
@@ -68,7 +78,7 @@ img
 .nav_list li a
 {
     text-decoration: none;
-    color: rgb(93, 0, 145);
+    color: var(--main-color);
 }
       
 .nav_list li a:hover
@@ -81,15 +91,14 @@ img
     background: rgb(124, 231, 255);
 }
 
-.sommaire
+.table_content
 {
-    text-align: center;
     list-style-position: inside;
 }
 
 .lien_source
 {
-    color: rgb(169, 13, 255);
+    color: var(--second-color);
 }
 
 a:hover
@@ -100,8 +109,7 @@ a:hover
 #Ransomwares
 {
     font-size: 50px ;
-    text-align: center;
-    color: rgb(93, 0, 145);
+    color: var(--main-color);
     font-weight: bold;
     text-decoration: underline;
 }
@@ -109,8 +117,7 @@ a:hover
 #DoS
 {
     font-size: 50px ;
-    text-align: center;
-    color: rgb(93, 0, 145);
+    color: var(--main-color);
     font-weight: bold;
     text-decoration: underline;
 }
@@ -118,28 +125,21 @@ a:hover
 #log_espions
 {
     font-size: 50px ;
-    text-align: center;
-    color: rgb(93, 0, 145);
+    color: var(--main-color);
     font-weight: bold;
     text-decoration: underline;
 }
 
-#ytb_dos
+.product_list
 {
-    text-align: center;
-}
-
-.liste_produit
-{
-    color: rgb(169, 13, 255);
+    color: var(--second-color);
     font-size: 25px;
     margin-left: 50px;
 }
 
-.nom_gest_mdp
+.password_manager_name
 {
     font-size: 20px;
-    text-align: center;
-    color: rgb(93, 0, 145);
+    color: var(--main-color);
     font-weight: bold;
 }
